@@ -96,7 +96,7 @@ else
 static bool GenreOrTitle()
 {
     bool result;
-    result = Validator.Validator.GetContinue("Would you like to by title or by genre?", "title", "genre");
+    result = Validator.Validator.GetContinue("Would you like to search by title or by genre?", "title", "genre");
     return result;
 }
 
